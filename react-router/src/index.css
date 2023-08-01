@@ -1,0 +1,80 @@
+* {
+  font-family: arial, sans-serif;
+  margin: 0;
+}
+
+body,
+body > div {
+  height: 100vh;
+  width: 100vw;
+}
+
+#container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#container > div {
+  display: flex;
+}
+
+#navbar {
+  padding: 2em;
+  justify-content: space-evenly;
+  background-color: rgb(125, 125, 125);;
+}
+
+#main-section {
+  flex-grow: 1;
+}
+
+#main-section > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home {
+  background-image: linear-gradient(#275db3, #c61d39,rgb(12, 94, 12));
+  color:rgb(42, 42, 42);
+}
+
+.blue {
+  background-image: linear-gradient(to right, #275db3, #c61d39);
+  color:rgb(42, 42, 42);
+}
+
+.red {
+  background-image: linear-gradient(to right,#c61d39, rgb(12, 94, 12));
+  color:rgb(42, 42, 42);
+}
+
+.green {
+  background-image: linear-gradient(to right,rgb(12, 94, 12), #275db3);
+  color:rgb(42, 42, 42);
+}
+
+.footer {
+  background-color: rgb(125, 125, 125);
+  color: rgb(42, 42, 42);
+  padding: 10px;
+  text-align: center;
+}
+  
+.footer-links a {
+  color: rgb(42, 42, 42);
+  margin: 0 10px;
+  text-decoration: none;
+}
+  
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+#header {
+  text-align: center;
+  background-color: rgb(125, 125, 125);;
+  color: rgb(42, 42, 42);
+}
