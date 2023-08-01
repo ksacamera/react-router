@@ -9,10 +9,10 @@ const MainContainer = () => {
   return (
     <div id="main-section">
       <Routes>
-      <Route path="home" element={<Home />} />
-          <Route path="blue" element={<Blue/>} />
-          <Route path="red" element={<Red/>} />
-          <Route path="green" element={<Green/>} />
+        <Route path="home" element={<Home />} />
+        <Route path="blue" element={<Blue />} />
+        <Route path="red" element={<Red />} />
+        <Route path="green" element={<Green />} />
       </Routes>
     </div>
   );
